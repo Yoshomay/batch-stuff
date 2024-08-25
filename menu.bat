@@ -170,3 +170,4 @@ endlocal
 goto menu
 ::test
 ::test2
+::test3
