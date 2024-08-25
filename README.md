@@ -1,2 +1,1 @@
-# batch-stuff
-"# batch-stuff" 
+some random stuff i've made learning batch scripting 

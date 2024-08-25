@@ -7,7 +7,7 @@ set /p commitChanges=what changed?:
 
 : says whats changed
 if "%commitChanges%" == "" (
-    git commit -m "i didnt feel like putting smthn here"
+    git commit -m "cant be bothered to enter what"
 )   else ( 
         git commit -m "%commitChanges%"
 )
