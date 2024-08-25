@@ -160,7 +160,6 @@ cls
 echo %result%
 echo.
 
-rem echo %minInt% %maxInt%
 echo Would you like another random number? (y/N)
 set /p anotherRandom=""
 
