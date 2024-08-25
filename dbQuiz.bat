@@ -76,8 +76,10 @@ echo 1: %~3
 echo 2: %~4
 echo 3: %~5
 echo 4: %~6
-::echo.
-set /p userInput=""
+
+rem set /p userInput="pp"
+choice /c 123456789 /n
+set "userInput=%errorlevel%"
 
 if not "%userInput%"=="1" if not "%userInput%"=="2" if not "%userInput%"=="3" if not "%userInput%"=="4" (
     cls
