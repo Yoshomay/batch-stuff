@@ -169,3 +169,4 @@ if "%anotherRandom%"=="y" goto randomFinallyDone
 endlocal
 goto menu
 ::test
+::test2
