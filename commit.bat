@@ -2,7 +2,7 @@
 : adds the changed files
 set /p updatedFiles="what files?: "
 if "%updatedFiles%"=="" (
-    git add *
+    git add commit.bat dbQuiz.bat loop.bat menu.bat
 ) else git add %updatedFiles%
 
 
