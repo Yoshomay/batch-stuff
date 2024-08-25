@@ -76,10 +76,8 @@ echo 1: %~3
 echo 2: %~4
 echo 3: %~5
 echo 4: %~6
-
-rem set /p userInput="pp"
-choice /c 123456789 /n
-set "userInput=%errorlevel%"
+::echo.
+set /p userInput=""
 
 if not "%userInput%"=="1" if not "%userInput%"=="2" if not "%userInput%"=="3" if not "%userInput%"=="4" (
     cls
@@ -105,3 +103,4 @@ exit /b 0
 
 echo how the hell u reading this
 pause
+::fix

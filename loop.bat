@@ -10,3 +10,5 @@ timeout /t 1 /nobreak >nul
 goto startOfTheLoop
 
 exit
+pause
+::fix

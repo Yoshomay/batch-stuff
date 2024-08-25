@@ -168,6 +168,5 @@ if "%anotherRandom%"=="Y" goto randomFinallyDone
 if "%anotherRandom%"=="y" goto randomFinallyDone
 endlocal
 goto menu
-::i fucking hate git so much
-:: QUIT CONVERING MY WINDOWS LINE ENDINGS TO UNIX
-:: git i am going to hurt you
+pause
+::fix
