@@ -103,4 +103,3 @@ exit /b 0
 
 echo how the hell u reading this
 pause
-::fix

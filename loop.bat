@@ -11,4 +11,3 @@ goto startOfTheLoop
 
 exit
 pause
-::fix
