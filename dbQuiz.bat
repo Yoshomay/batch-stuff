@@ -8,7 +8,7 @@ echo ^| Dragon Ball quiz by Yoshomay. To answer the questions type ^"1^" ^"2^" ^
 echo ^| There are 10 questions in total                                                                ^|
 echo --------------------------------------------------------------------------------------------------
 
-pause
+set /p a=""
 
 
 :startOfTheQuiz
@@ -43,7 +43,7 @@ set /p playAgain=""
 if "%playAgain%"=="1" goto :startOfTheQuiz
 if "%playAgain%"=="2" goto :answers
 if "%playAgain%"=="3" start "" "https://yoshomay.epizy.com/" && goto :finalMenu
-if "%playAgain%"=="4" start "" "https://cdn.discordapp.com/attachments/675876648784101386/1276851131946897448/how_may_i_take_your_order.png?ex=66cb07c8&is=66c9b648&hm=dfabb3e5aea3762d31f85545cca644d0dd43ef108e80d6046dc0c00ac0e89a11&/" && goto :finalMenu
+if "%playAgain%"=="4" start "" "https://yoshomay.epizy.com/stuffforvideos/how_may_i_take_your_order.png" && goto :finalMenu
 
 exit
 
