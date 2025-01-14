@@ -23,7 +23,7 @@ call :question 4, "What was the theme song used in the orignal English Dragon Ba
 call :question 5, "How many times *in the main cannon timeline* has Krillin died?", "1", "2", "3", "4", 3
 call :question 6, "What universe is Giren from?", "9", "11", "7", "2", 3
 call :question 7, "Who is the angel of universe 6", "Martinu", "Whis", "Shin", "Vados", 4
-call :question 8, "Who has not died in the *main cannon timeline*? (excluding Super Buu)", "Goku", "Krillin", "Gohan", "Picolo" 3
+call :question 8, "Who has not died in the *main cannon timeline*? (excluding Super Buu)", "Goku", "Krillin", "Gohan", "Picolo", 3
 call :question 9, "What movie came right after Bio Broley?", "Fusion Reborn", "Broley Second Coming", "Wrath of the Dragon", "Bojack Unbound", 1
 call :question 10, "'Dragon Ball Minus' is from what manga?" "Dr. Slump", "Jaco the Galactic Patrolman", "Dragon Ball Super", "Cowa", 2
 
@@ -35,15 +35,22 @@ echo.
 echo To try again, enter ^"1^"
 echo To see the answers, enter ^"2^"
 echo To go to my personal website, enter ^"3^"
-echo To speak to customer service, enter ^"4^"
-echo To exit enter anything else
+echo To play a JavaScript port of this game, enter ^"4"
+echo To speak to customer service, enter ^"5^"
+echo To exit, enter ^"6"
 set playAgain=""
 set /p playAgain=""
 
 if "%playAgain%"=="1" goto :startOfTheQuiz
 if "%playAgain%"=="2" goto :answers
-if "%playAgain%"=="3" start "" "https://yoshomay.epizy.com/" && goto :finalMenu
-if "%playAgain%"=="4" start "" "https://yoshomay.epizy.com/stuffforvideos/how_may_i_take_your_order.png" && goto :finalMenu
+if "%playAgain%"=="3" start "" "https://www.yoshomay.com/" && goto :finalMenu
+if "%playAgain%"=="4" start "" "https://www.yoshomay.com/projects/DBQuiz.html" && goto :finalMenu
+if "%playAgain%"=="5" start "" "https://www.yoshomay.com/stuffforvideos/how_may_i_take_your_order.png" && goto :finalMenu
+if "%playAgain%"=="6" exit
+
+if not "%playAgain%"=="1" if not "%playAgain%"=="2"if not "%playAgain%"=="3"if not "%playAgain%"=="4" if not "%playAgain%"=="5"if not "%playAgain%"=="6" (
+    goto :finalMenu
+)
 
 exit
 
