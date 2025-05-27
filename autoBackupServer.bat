@@ -1,6 +1,9 @@
 @echo off
 echo snowy is a dummie
 
+: warning, this was written half by chatgpt cus i just wanted a script to automatically backup mine and snowy's minecraft server, i didn't make this to learn like i did the others ¯\_(ツ)_/¯
+
+
 REM Store the date in a temporary variable
 set dt=%DATE%
 

@@ -1,1 +1,1 @@
-This is just a repo of random stuff from me learning batch scripting, however since i've switched to linux i don't really plan on batch scripting anymore, instead moving on to .sh scripting if i ever feel like learning it.
+This is just a repo of random stuff from me learning batch scripting, however since i've switched to linux i don't really plan on batch scripting anymore, instead moving on to .sh scripting if i ever feel like learning it. might still make something tho so i wont archive the repo just in case
