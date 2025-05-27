@@ -1,0 +1,43 @@
+@echo off
+
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+echo Grab ur water bottle
+pause

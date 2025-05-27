@@ -1,3 +1,1 @@
-some random stuff i've made learning batch scripting 
-
-commit.bat is just a file to auto upload this stuff
+This is just a repo of random stuff from me learning batch scripting, however since i've switched to linux i don't really plan on batch scripting anymore, instead moving on to .sh scripting if i ever feel like learning it.
