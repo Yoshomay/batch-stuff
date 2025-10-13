@@ -45,7 +45,7 @@ if "%playAgain%"=="1" goto :startOfTheQuiz
 if "%playAgain%"=="2" goto :answers
 if "%playAgain%"=="3" start "" "https://www.yoshomay.com/" && goto :finalMenu
 if "%playAgain%"=="4" start "" "https://www.yoshomay.com/projects/DBQuiz.html" && goto :finalMenu
-if "%playAgain%"=="5" start "" "https://www.yoshomay.com/stuffforvideos/how_may_i_take_your_order.png" && goto :finalMenu
+if "%playAgain%"=="5" start "" "https://www.yoshomay.com/projects/images/how_may_i_take_your_order.png" && goto :finalMenu
 if "%playAgain%"=="6" exit
 
 if not "%playAgain%"=="1" if not "%playAgain%"=="2"if not "%playAgain%"=="3"if not "%playAgain%"=="4" if not "%playAgain%"=="5"if not "%playAgain%"=="6" (
@@ -109,4 +109,5 @@ timeout /t 2 /nobreak >nul
 exit /b 0
 
 echo how the hell u reading this
+
 pause
